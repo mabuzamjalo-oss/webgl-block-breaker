@@ -1,0 +1,28 @@
+/* =========================
+   style.css
+========================= */
+body { margin:0; background:black; color:white; font-family:Arial; }
+canvas { display:block; margin:auto; }
+
+#ui {
+  position:absolute;
+  top:10px;
+  left:50%;
+  transform:translateX(-50%);
+  display:flex;
+  gap:20px;
+}
+
+#menu {
+  position:absolute;
+  top:50px;
+  left:50%;
+  transform:translateX(-50%);
+  display:flex;
+  gap:10px;
+}
+
+button {
+  padding:8px 16px;
+  cursor:pointer;
+}
